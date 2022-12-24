@@ -9,7 +9,7 @@ const TimeOnClick = () => {
       d = new Date();
       time = d.toLocaleTimeString();
       setDate(time);
-      console.log("clicked "+time);
+      // console.log("clicked "+time);
     }
     return (
       <>

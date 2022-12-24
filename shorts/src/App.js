@@ -1,10 +1,14 @@
 import React from 'react';
-import TimeOnClick from './components/TimeOnClick';
+import Events from './components/Events';
+// import TimeClock from './components/TimeClock';
+// import TimeOnClick from './components/TimeOnClick';
 
 function App() {
   return(
   <>
-  <TimeOnClick/>
+  <Events/>
+  {/* <TimeOnClick/>
+  <TimeClock/> */}
   </>
   )
 }
