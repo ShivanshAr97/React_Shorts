@@ -1,7 +1,9 @@
 import React from 'react';
-import ContextExample from './components/ContextExample';
+import TitleChange from './components/TitleChange';
+// import Effect from './components/Effect';
+// import ContextExample from './components/ContextExample';
 // import { Route, Routes } from 'react-router-dom';
-import FormDisplay from './components/FormDisplay';
+// import FormDisplay from './components/FormDisplay';
 // import Forms from './components/Forms';
 // import Events from './components/Events';
 // import TimeClock from './components/TimeClock';
@@ -10,10 +12,12 @@ import FormDisplay from './components/FormDisplay';
 function App() {
   return (
     <>
-    <ContextExample/>
+    <TitleChange/>
       {/* <Routes>
         <Route path='/' element={<Forms />} />
       </Routes> */}
+    {/* <Effect/> */}
+    {/* <ContextExample/> */}
       {/* <FormDisplay /> */}
       {/* <Forms/> */}
       {/* <Events/> */}
