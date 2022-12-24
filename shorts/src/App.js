@@ -1,12 +1,18 @@
 import React from 'react';
-import Events from './components/Events';
+import { Route, Routes } from 'react-router-dom';
+import Forms from './components/Forms';
+// import Events from './components/Events';
 // import TimeClock from './components/TimeClock';
 // import TimeOnClick from './components/TimeOnClick';
 
 function App() {
   return(
   <>
-  <Events/>
+        <Routes>
+        <Route path='/' element={<Forms />} />
+      </Routes>
+  {/* <Forms/> */}
+  {/* <Events/> */}
   {/* <TimeOnClick/>
   <TimeClock/> */}
   </>
