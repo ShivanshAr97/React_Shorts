@@ -1,21 +1,25 @@
 import React from 'react';
-import { Route, Routes } from 'react-router-dom';
-import Forms from './components/Forms';
+import ContextExample from './components/ContextExample';
+// import { Route, Routes } from 'react-router-dom';
+import FormDisplay from './components/FormDisplay';
+// import Forms from './components/Forms';
 // import Events from './components/Events';
 // import TimeClock from './components/TimeClock';
 // import TimeOnClick from './components/TimeOnClick';
 
 function App() {
-  return(
-  <>
-        <Routes>
+  return (
+    <>
+    <ContextExample/>
+      {/* <Routes>
         <Route path='/' element={<Forms />} />
-      </Routes>
-  {/* <Forms/> */}
-  {/* <Events/> */}
-  {/* <TimeOnClick/>
+      </Routes> */}
+      {/* <FormDisplay /> */}
+      {/* <Forms/> */}
+      {/* <Events/> */}
+      {/* <TimeOnClick/>
   <TimeClock/> */}
-  </>
+    </>
   )
 }
 
